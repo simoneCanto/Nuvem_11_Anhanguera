@@ -1,6 +1,7 @@
 # Nuvem_11_Anhanguera
 
 PROCEDIMENTOS PRÁTICOS
+
 Etapa 1 — Abrir o Google Colab
 
 Acesse https://colab.research.google.com
