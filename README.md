@@ -2,7 +2,7 @@
 
 PROCEDIMENTOS PRÁTICOS
 
-Etapa 1 — Abrir o Google Colab
+# Etapa 1 — Abrir o Google Colab
 
 Acesse https://colab.research.google.com
 .
@@ -12,7 +12,7 @@ Clique em “Novo notebook”.
 No topo, renomeie para Atividade_IA_em_Nuvem.
 
 
-Etapa 2 — Testar um serviço de tradução gratuita
+# Etapa 2 — Testar um serviço de tradução gratuita
 
 Tarefa:
 
@@ -20,7 +20,7 @@ Altere o texto e as línguas (por exemplo, de português para espanhol, "source"
 
 Observe os resultados.
 
-Etapa 3 — Testar um serviço de reconhecimento de imagens
+# Etapa 3 — Testar um serviço de reconhecimento de imagens
 
 Agora usaremos um modelo gratuito hospedado na nuvem do Hugging Face.
 
@@ -32,7 +32,7 @@ Observe se o modelo classifica corretamente.
 
 Discuta possíveis erros.
 
-Etapa 4 — Relatório
+# Etapa 4 — Relatório
 
 Entregue um relatório simples em PDF contendo:
 
