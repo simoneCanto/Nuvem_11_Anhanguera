@@ -1,0 +1,19 @@
+from PIL import Image
+import requests
+from io import BytesIO
+from transformers import pipeline
+
+# Carregar modelo pré-treinado
+classificador = pipeline("image-classification", model="microsoft/resnet-50")
+
+# Imagem de exemplo
+url_imagem = "https://upload.wikimedia.org/wikipedia/commons/9/9a/Pug_600.jpg"
+imagem = Image.open(BytesIO(requests.get(url_imagem).content))
+imagem.show()
+
+# Classificar a imagem
+resultados = classificador(url_imagem)
+
+print("Resultados da classificação:\n")
+for r in resultados:
+    print(f"{r['label']} - Confiança: {r['score']:.2%}")
