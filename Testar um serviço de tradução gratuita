@@ -1,0 +1,12 @@
+import requests
+
+# Texto para tradução
+texto = "Hello, world! How are you today?"
+
+# Requisição para o serviço público de tradução
+url = "https://libretranslate.com/translate"
+payload = {"q": texto, "source": "en", "target": "pt"}
+resposta = requests.post(url, data=payload)
+
+print("Texto original:", texto)
+print("Tradução:", resposta.json()["translatedText"])
